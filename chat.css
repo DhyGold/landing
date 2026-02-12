@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  padding: 40px;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user h4 {
+  font-size: 14px;
+}
+
+.user span {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+
+/* COLORS */
+.purple {
+  background: #733fc8;
+  color: #fff;
+}
+
+.dark-gray {
+  background: #49556b;
+  color: #fff;
+}
+
+.black {
+  background: #19202d;
+  color: #fff;
+}
+
+.white {
+  background: #fff;
+  color: #000;
+}

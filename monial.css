@@ -1,0 +1,35 @@
+*{
+    background: #f4e6d8;
+    display: flex;
+    margin: 10px;
+}
+.dan{
+    height: 300px;
+    width: 250px;
+    background-color: blueviolet;
+
+}
+.jon{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(82, 82, 82);
+    
+}
+.kir{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+   
+}
+.jay{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    
+}
+.pat{
+    height: 300px;
+    width: 250px;
+    background-color: rgb(10, 10, 10);
+    
+}

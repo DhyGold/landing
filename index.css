@@ -1,0 +1,22 @@
+#top{
+    background-color: purple;
+    color: white;
+}
+#div>h1{
+    color: greenyellow;
+}
+#top>img{
+    position: sticky;
+}
+a{
+    text-decoration: none;
+    position: fixed;
+    top: 95%;
+    float: right;
+    color: black;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+a:active

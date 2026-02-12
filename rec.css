@@ -1,0 +1,25 @@
+*{
+    background: #f4e6d8;
+    opacity: 0.9;
+    margin-left: 10px;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+h3{
+    color: brown;
+}
+span{
+    color: brown;
+    margin-left: 300px;
+    text-align: center;
+}
+@media screen and (max-width:400px){
+    .card{
+        flex-direction: column;
+    }
+
+}
